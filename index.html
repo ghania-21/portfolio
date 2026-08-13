@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ghania Fatima — Frontend Developer</title>
+<meta name="description" content="Ghania Fatima — BS Computer Science student and Frontend Developer building modern, interactive web experiences.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- background texture -->
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow" aria-hidden="true"></div>
+
+<!-- custom cursor (desktop only) -->
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="#home" class="logo" aria-label="Ghania Fatima — home">
+      <span class="logo-mark">GF</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#home" class="nav-link is-active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-cta">Let's Connect</a>
+
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="mobile-menu" id="mobile-menu">
+  <nav aria-label="Mobile">
+    <a href="#home" class="mobile-link"><span>01</span>Home</a>
+    <a href="#about" class="mobile-link"><span>02</span>About</a>
+    <a href="#projects" class="mobile-link"><span>03</span>Projects</a>
+    <a href="#skills" class="mobile-link"><span>04</span>Skills</a>
+    <a href="#contact" class="mobile-link"><span>05</span>Contact</a>
+  </nav>
+  <div class="mobile-menu-footer">
+    <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+
+      <div class="hero-text" data-reveal>
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1 class="hero-name">
+          <span class="line">GHANIA</span>
+          <span class="line">FATIMA</span>
+        </h1>
+        <p class="hero-role">Frontend Developer</p>
+        <p class="hero-desc">I build modern, interactive and visually engaging web experiences with a focus on clean design, usability and detail.</p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary magnetic">
+            <span>View My Work</span>
+          </a>
+          <a href="#contact" class="btn btn-ghost magnetic">
+            <span>Let's Connect</span>
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/" target="_blank" rel="noopener" class="social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.5 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.22-3.37-1.22-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .28.18.6.69.5A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z" fill="currentColor"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener" class="social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.94 8.5H3.56V20.5H6.94V8.5Z" fill="currentColor"/><path d="M5.25 7.03A1.96 1.96 0 1 0 5.25 3.1a1.96 1.96 0 0 0 0 3.93Z" fill="currentColor"/><path d="M20.5 13.66c0-3.32-1.78-4.86-4.15-4.86-1.91 0-2.77 1.05-3.24 1.79V8.5H9.72c.04.94 0 12 0 12h3.39v-6.7c0-.36.02-.72.13-.98.28-.72.94-1.46 2.03-1.46 1.43 0 2 1.09 2 2.69V20.5h3.39l-.16-6.84Z" fill="currentColor"/></svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal>
+        <div class="portrait-stage" id="portraitStage">
+          <div class="portrait-glow" aria-hidden="true"></div>
+
+          <div class="portrait-frame">
+            <div class="frame-bracket tl"></div>
+            <div class="frame-bracket tr"></div>
+            <div class="frame-bracket bl"></div>
+            <div class="frame-bracket br"></div>
+            <img src="assets/images/ghania-profile.jpg" alt="Portrait of Ghania Fatima" class="portrait-img" loading="eager">
+            <div class="portrait-sheen" aria-hidden="true"></div>
+          </div>
+
+          <div class="float-tag tag-1">
+            <span class="dot"></span>Frontend Developer
+          </div>
+          <div class="float-tag tag-2">
+            <span class="dot"></span>Creative Web Designer
+          </div>
+          <div class="float-tag tag-3">
+            <span class="stat-num">4+</span>Projects
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="scroll-indicator" aria-hidden="true">
+      <span class="scroll-line"></span>
+      <span class="scroll-word">SCROLL</span>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="about">
+    <div class="section-inner about-grid">
+
+      <div class="about-media" data-reveal>
+        <div class="about-frame">
+          <div class="frame-bracket tl"></div>
+          <div class="frame-bracket br"></div>
+          <img src="assets/images/ghania-profile.jpg" alt="Ghania Fatima" loading="lazy">
+        </div>
+      </div>
+
+      <div class="about-content" data-reveal>
+        <p class="eyebrow">ABOUT ME</p>
+        <h2 class="about-statement">Turning ideas into <em>engaging</em> digital experiences.</h2>
+        <p class="about-body">
+          I'm a BS Computer Science student with a strong interest in frontend development and modern UI design. I enjoy the process of turning an interface idea into something people can actually feel — paying close attention to layout, motion and detail so the end result feels considered rather than assembled.
+        </p>
+        <p class="about-body">
+          My focus right now is building interactive, responsive web experiences and steadily sharpening the design instincts that sit alongside the code — the kind of instincts that come from building things, breaking them, and building them again.
+        </p>
+
+        <div class="about-stats">
+          <div class="stat-block">
+            <span class="stat-value">4+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-value">FE</span>
+            <span class="stat-label">Frontend Focused</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-value">BSCS</span>
+            <span class="stat-label">Computer Science</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="skills">
+    <div class="section-inner">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2 class="section-title">Skills &amp; Tools</h2>
+      </div>
+
+      <div class="skills-grid" data-reveal>
+        <div class="skill-card">
+          <span class="skill-index">01</span>
+          <span class="skill-name">HTML5</span>
+          <span class="skill-tag">Markup</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-index">02</span>
+          <span class="skill-name">CSS3</span>
+          <span class="skill-tag">Styling</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-index">03</span>
+          <span class="skill-name">JavaScript</span>
+          <span class="skill-tag">Interaction</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-index">04</span>
+          <span class="skill-name">Responsive Design</span>
+          <span class="skill-tag">Layout</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-index">05</span>
+          <span class="skill-name">UI/UX</span>
+          <span class="skill-tag">Design</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-index">06</span>
+          <span class="skill-name">Git</span>
+          <span class="skill-tag">Versioning</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-index">07</span>
+          <span class="skill-name">GitHub</span>
+          <span class="skill-tag">Collaboration</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-index">08</span>
+          <span class="skill-name">Web Development</span>
+          <span class="skill-tag">Building</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="projects">
+    <div class="section-inner">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2 class="section-title">A collection of interfaces and experiences I've built.</h2>
+      </div>
+
+      <!-- PROJECT 01 — horizontal showcase -->
+      <article class="project project--horizontal" data-reveal>
+        <div class="project-media">
+          <div class="frame-bracket tl"></div>
+          <div class="frame-bracket br"></div>
+          <div class="browser-chrome">
+            <div class="browser-chrome-bar"><span></span><span></span><span></span></div>
+            <div class="browser-chrome-shot-wrap">
+              <img class="project-shot" src="assets/images/netflix-shot.jpg" alt="Netflix Clone project screenshot" loading="lazy">
+            </div>
+          </div>
+          <div class="project-overlay">
+            <div class="overlay-actions">
+              <a href="#" class="btn btn-small">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <span class="project-num">01 / 04</span>
+          <span class="project-cat">Frontend / UI</span>
+          <h3 class="project-title">Netflix Clone</h3>
+          <p class="project-desc">A streaming-platform inspired web experience focused on immersive visuals, content browsing and responsive interface design.</p>
+          <ul class="project-tech">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="project-actions">
+            <a href="#" class="btn btn-primary btn-small">Live Demo</a>
+            <a href="#" class="btn btn-ghost btn-small">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECT 02 — split screen, futuristic -->
+      <article class="project project--split" data-reveal>
+        <div class="project-info">
+          <span class="project-num">02 / 04</span>
+          <span class="project-cat">Dashboard / Frontend</span>
+          <h3 class="project-title">Mission Control Dashboard</h3>
+          <p class="project-desc">A futuristic dashboard interface designed to organize information, activity and system-style controls in a clean interactive experience.</p>
+          <ul class="project-tech">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="project-actions">
+            <a href="#" class="btn btn-primary btn-small">Live Demo</a>
+            <a href="#" class="btn btn-ghost btn-small">GitHub</a>
+          </div>
+        </div>
+        <div class="project-media">
+          <div class="frame-bracket tl"></div>
+          <div class="frame-bracket br"></div>
+          <div class="browser-chrome">
+            <div class="browser-chrome-bar"><span></span><span></span><span></span></div>
+            <div class="browser-chrome-shot-wrap">
+              <img class="project-shot" src="assets/images/mission-control-shot.jpg" alt="Mission Control Dashboard project screenshot" loading="lazy">
+            </div>
+          </div>
+          <div class="project-overlay">
+            <div class="overlay-actions">
+              <a href="#" class="btn btn-small">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECT 03 — large dashboard mockup, AI aesthetic -->
+      <article class="project project--feature" data-reveal>
+        <div class="project-media project-media--tall" style="aspect-ratio: 2.55/1;">
+          <div class="frame-bracket tl"></div>
+          <div class="frame-bracket br"></div>
+          <div class="browser-chrome">
+            <div class="browser-chrome-bar"><span></span><span></span><span></span></div>
+            <div class="browser-chrome-shot-wrap">
+              <img class="project-shot" src="assets/images/preppilot-shot.jpg" alt="AI Interview Platform project screenshot" loading="lazy">
+            </div>
+          </div>
+          <div class="project-overlay">
+            <div class="overlay-actions">
+              <a href="#" class="btn btn-small">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <span class="project-num">03 / 04</span>
+          <span class="project-cat">AI / Dashboard / Frontend</span>
+          <h3 class="project-title">AI Interview Platform</h3>
+          <p class="project-desc">An interactive AI interview preparation dashboard designed to help users prepare for interviews through a modern and focused interface.</p>
+          <ul class="project-tech">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="project-actions">
+            <a href="#" class="btn btn-primary btn-small">Live Demo</a>
+            <a href="#" class="btn btn-ghost btn-small">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECT 04 — large travel visual showcase -->
+      <article class="project project--horizontal project--travel" data-reveal>
+        <div class="project-media">
+          <div class="frame-bracket tl"></div>
+          <div class="frame-bracket br"></div>
+          <div class="browser-chrome">
+            <div class="browser-chrome-bar"><span></span><span></span><span></span></div>
+            <div class="browser-chrome-shot-wrap">
+              <img class="project-shot" src="assets/images/wander-shot.jpg" alt="Wander travel agency project screenshot" loading="lazy">
+            </div>
+          </div>
+          <div class="project-overlay">
+            <div class="overlay-actions">
+              <a href="#" class="btn btn-small">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <span class="project-num">04 / 04</span>
+          <span class="project-cat">Travel / Frontend / UI</span>
+          <h3 class="project-title">Wander</h3>
+          <p class="project-desc">A modern travel agency experience designed around destinations, exploration and an engaging visual travel interface.</p>
+          <ul class="project-tech">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="project-actions">
+            <a href="#" class="btn btn-primary btn-small">Live Demo</a>
+            <a href="#" class="btn btn-ghost btn-small">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ JOURNEY ============ -->
+  <section class="journey">
+    <div class="section-inner">
+      <div class="journey-inner" data-reveal>
+        <p class="eyebrow">HOW I WORK</p>
+        <div class="journey-steps">
+          <span class="journey-step">Learning</span>
+          <span class="journey-arrow">→</span>
+          <span class="journey-step">Building</span>
+          <span class="journey-arrow">→</span>
+          <span class="journey-step">Improving</span>
+        </div>
+        <p class="journey-text">I'm continuously building projects and sharpening my frontend development skills — one interface, one interaction, one refinement at a time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact">
+    <div class="section-inner">
+      <div class="contact-inner" data-reveal>
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2 class="contact-title">Let's build<br>something.</h2>
+        <p class="contact-text">Have a project, opportunity or idea? I'd love to hear about it.</p>
+
+        <div class="contact-actions">
+          <a href="mailto:hello@example.com" class="btn btn-primary btn-large magnetic">Email Me</a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener" class="btn btn-ghost btn-large magnetic">LinkedIn</a>
+          <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn-ghost btn-large magnetic">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <div class="footer-brand">
+      <span class="logo-mark">GF</span>
+      <div>
+        <p class="footer-name">Ghania Fatima</p>
+        <p class="footer-role">Frontend Developer</p>
+      </div>
+    </div>
+
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="footer-socials">
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+  <div class="section-inner footer-bottom">
+    <p>© 2026 Ghania Fatima. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
